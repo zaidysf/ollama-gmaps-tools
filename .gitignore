@@ -1,0 +1,31 @@
+# Environment variables (contains API keys)
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# OpenWebUI data
+.webui_secret_key
+*.db
+*.db-journal
+
+# Logs
+*.log
+nohup.out
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
